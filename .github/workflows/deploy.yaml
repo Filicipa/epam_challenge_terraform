@@ -25,6 +25,8 @@ jobs:
           aws-region: eu-west-1
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v4
+      - name: Terraform version
+        run: terraform version
       - name: Terraform Init
         run: terraform init
       - name: Terraform Format
