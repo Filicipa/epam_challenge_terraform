@@ -4,7 +4,7 @@ resource "aws_vpc" "this" {
   enable_dns_hostnames = true
 
   tags = {
-    Name = "terraform-student-vpc"
+    Name         = "terraform-student-vpc"
     Verification = "20260915210110"
   }
 }
